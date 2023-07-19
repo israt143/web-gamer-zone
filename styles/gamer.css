@@ -1,0 +1,329 @@
+/*work sans font from google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+/*header style*/
+.header-container {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-fram {
+    display: flex;
+
+}
+
+.nav-fram img {
+    width: 60px;
+    height: 35px;
+    margin-top: 40px;
+    margin-right: 12px;
+}
+
+.nav-fram h2 {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+
+
+
+.nav-item ul {
+    display: flex;
+
+
+
+}
+
+.nav-item li {
+    list-style: none;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+
+
+}
+
+.nav-item li a {
+    text-decoration: none;
+    color: #3C354F;
+
+}
+
+.follow {
+    border-radius: 8px;
+    background-color: rgba(11, 2, 35, 0.10);
+    width: 220px;
+    height: 38px;
+    margin-top: 30px;
+}
+
+.follow-item {
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+
+
+.fa-youtube {
+    color: #e01212;
+}
+
+.fa-tiktok {
+    color: #0B0223;
+}
+
+
+
+
+/*main style*/
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+.banner {
+    display: flex;
+
+}
+
+/*section goat related*/
+.section-goat {
+    display: flex;
+    gap: 60px;
+}
+
+.section-goat-img img {
+    width: 600px;
+    height: 600px;
+    padding-left: 300px;
+
+}
+
+
+
+.section-goat-item h1 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+
+}
+
+
+
+
+
+/*secition "online-game" related*/
+
+.online-game-item {
+    text-align: center;
+
+}
+
+.online-game-img {
+    width: 300px;
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.online-game-img img {
+    margin: 15px;
+}
+
+.online-game-list li {
+    list-style: none;
+    display: flex;
+}
+
+
+
+
+
+
+/*section play-game related*/
+.play-game {
+    display: flex;
+    gap: 200px;
+
+}
+
+.play-game-content h1 {
+    text-align: right;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 15px;
+
+}
+
+.play-game-content {
+    margin-top: 200px;
+}
+
+.play-game-content p {
+    color: #534C64;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+
+}
+
+.Play-Instantly {
+    color: #e0128e;
+}
+
+.No-Downloads {
+    color: #0B0223;
+}
+
+
+.play-game-img img {
+    width: 600px;
+    height: 600px;
+
+}
+
+.play-game-mini-img img {
+    width: 250px;
+    height: 300px;
+    margin-left: 420px;
+    margin-top: 0px;
+    position: relative;
+    bottom: 250px;
+
+}
+
+
+
+
+/*footer related style*/
+
+.footer {
+    background-color: #0B0223;
+    width: 100%;
+    height: 500px;
+
+}
+
+.footer-item {
+    display: flex;
+    padding-left: 450px;
+
+
+}
+
+.footer-item img {
+    width: 80px;
+    height: 40px;
+    margin-top: 100px;
+
+
+}
+
+
+.footer-item h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: 15px;
+
+}
+
+
+.footer-list ul {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    gap: 50px;
+    margin-left: 200px;
+}
+
+.footer-list li {
+    list-style: none;
+
+}
+
+
+.footer-icon {
+    color: #e3dce0;
+    margin-left: 500px;
+
+
+
+}
+
+.footer-icon i {
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+
+}
+
+
+.footer-list-TPCP ul {
+    display: inline-flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 40px;
+    color: rgba(255, 255, 255, 0.60);
+    margin-left: 280px;
+    font-size: 14px;
+    margin-bottom: 0px;
+
+}
+
+.footer-list-TPCP li {
+    list-style: none;
+}
+
+.footer-list-title {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+
+}
+
+.fa-facebook {
+    color: rgb(37, 12, 175);
+
+}
+
+.fa-instagram {
+    color: rgb(173, 153, 36);
+}
